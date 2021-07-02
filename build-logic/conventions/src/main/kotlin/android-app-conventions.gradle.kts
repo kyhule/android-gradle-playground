@@ -3,6 +3,7 @@ import org.gradle.accessors.dm.LibrariesForLibs
 plugins {
     id("com.android.application")
     id("kotlin-android")
+    id("spotless-conventions")
 }
 
 val libs = the<LibrariesForLibs>()
