@@ -26,3 +26,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+includeBuild("build-logic")
