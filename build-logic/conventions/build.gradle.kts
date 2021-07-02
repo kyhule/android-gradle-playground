@@ -7,4 +7,5 @@ dependencies {
     implementation(libs.android.gradle.plugin)
     implementation(libs.kotlin.gradle.plugin)
     implementation(libs.spotless.plugin)
+    implementation(libs.hilt.plugin)
 }

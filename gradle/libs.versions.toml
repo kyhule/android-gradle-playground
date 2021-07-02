@@ -71,6 +71,7 @@ debug-drawer-ui-modules = { module = "com.github.alorma:drawer-ui-modules", vers
 android-gradle-plugin = { module = "com.android.tools.build:gradle", version.ref = "android-gradle-plugin" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 spotless-plugin = { module = "com.diffplug.spotless:spotless-plugin-gradle", version = "5.14.0" }
+hilt-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
 
 [bundles]
 compose-ui = [

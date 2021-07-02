@@ -3,6 +3,8 @@ import org.gradle.accessors.dm.LibrariesForLibs
 plugins {
     id("com.android.application")
     id("kotlin-android")
+    id("kotlin-kapt")
+    id("dagger.hilt.android.plugin")
     id("spotless-conventions")
 }
 
@@ -31,4 +33,10 @@ android {
         // We run a full lint analysis as build part in CI, so skip vital checks for assemble task
         isCheckReleaseBuilds = false
     }
+}
+
+dependencies {
+    implementation(libs.hilt.android.core)
+
+    kapt(libs.hilt.android.compiler)
 }
